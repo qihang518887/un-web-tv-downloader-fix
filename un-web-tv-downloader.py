@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 from urllib.request import Request, urlopen
 
 RE_ENTRY_ID = re.compile(re.escape("/").join([
-    re.escape("https://media.un.org"),
+    re.escape("https://webtv.un.org"),
     r"[a-z]{2}",
     "asset",
     r"k[a-z\d]+",
